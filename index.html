@@ -54,6 +54,7 @@
 
         --lien: #42a9ed;
         --lien1: #a8d6f5;
+        --lien2: #453cf4;
 
         --titre: #0b4f8a;
 
@@ -73,7 +74,13 @@
 
         --ombre: 0 2px 8px rgba(0,0,0,.12);
     }
-
+    .rouge { color: red; }
+    
+    .vert { color: green; }  
+    
+    .orange { color: orange; }
+    
+    .bleu { color: blue; }   
     /* =========================================================
         HTML / BODY
     ========================================================= */
@@ -467,9 +474,9 @@
         padding: 0;
         border: 1px solid rgba(255,255,255,0.65);
         border-radius: 50%;
-        background: rgba(255,255,255,0.12);
+        background: rgba(245, 103, 8, 0.948);
         color: white;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
         line-height: 1;
         cursor: pointer;
@@ -478,8 +485,8 @@
     }
 
     .info-btn:hover {
-        background: white;
-        color: var(--bg-header-1);
+        background: rgb(182, 231, 84);
+        color: rgb(211, 19, 19);
         transform: scale(1.08);
     }
 
@@ -512,15 +519,15 @@
         border: 2px solid var(--bg-header-1);
         border-radius: 10px;
         box-shadow: 0 8px 30px rgba(0,0,0,0.5);
-        font-size: 14px;
+        font-size: 15px;
         line-height: 1.5;
     }
 
-    .info-modal-title {
+    .info-modal-title { 
         margin: 0 35px 15px 0;
         color: var(--titre);
-        font-size: 1.3rem;
-        font-weight: 600;
+        font-size: 1.4rem;
+        font-weight: 625;
     }
 
     .info-modal-text {
@@ -528,12 +535,14 @@
     }
 
     .info-modal-content a {
-        color: var(--lien);
+        color: var(--lien2);
         font-weight: 600;
     }
 
     .info-modal-content a:hover {
         color: var(--titre);
+        background-color: var(--bg-fond3);
+        transition: background-color 0.15s ease;
         text-decoration: underline;
     }
     
