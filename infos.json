@@ -1,0 +1,102 @@
+{
+  "groupe1": {
+    "titre": "LD Nemours (77) – 4 octobre",
+    "textes": [
+      "Informations concernant la course de Nemours."      
+    ],
+    "liens": [
+      {
+        "texte": "Résultats Circuits",
+        "url": "https://drive.google.com/file/d/164nk25AF2wsfYGwdS0gv3WiwmrRX-0Lp/view?usp=sharing"
+      },
+      {
+        "texte": "Annonce",
+        "url": "https://drive.google.com/file/d/1QrOnt-HcuTtvGSR5_7xQkPmd7BuNOapq/view?usp=sharing"
+      }
+    ],
+    "maj": "04/10/2026 09:18"
+  },
+
+  "groupe2": {
+    "titre": "NSE Sprint Lambesc (13) – 3 octobre",
+    "textes": [
+      "Course nationale Sprint."
+    ],
+    "liens": [
+      {
+        "texte": "Résultats Sprint (NSE)",
+        "url": "https://heyries.alwaysdata.net/competition/1/"
+      },
+      {
+        "texte": "Annonce",
+        "url": "https://nse2026.paca-co.fr/wp-content/uploads/2026/09/Annonce-de-course-CO-a-pied-Nationale-LAMBESC-v1.5.pdf"
+      }
+    ],
+    "maj": "03/10/2026"
+  },
+
+  "groupe3": {
+    "titre": "LD Meyrargues (13) – 4 octobre",
+    "textes": [
+      "Course nationale Longue Distance (NSE)"
+    ],
+    "liens": [
+      {
+        "texte": "Résultats Nationale LD",
+        "url": "https://heyries.alwaysdata.net/competition/2/"
+      },
+      {
+        "texte": "Annonce",
+        "url": "https://nse2026.paca-co.fr/wp-content/uploads/2026/08/Annonce-de-course-CO-a-pied-Nationale-Meyrargues-v1.3.pdf"
+      }
+    ],
+    "maj": "04/10/2026 18:47"
+  },
+
+    "groupe4": {
+    "titre": "Sprint R. Quetigny(21) 10/10",
+    "textes": [
+      "Course régionale Sprint à Quetigny(21)",
+      "Cette épreuve comptant pour la Coupe de Ligue(cdlp) est l'étape 12."
+    ],
+    "liens": [
+      {
+        "texte": "Annonce",
+        "url": "https://drive.google.com/file/d/1AGCc6prWtvzRJWoXNc-l1V4T1g1IDAZt/view?usp=sharing"
+      },
+      {
+        "texte": "",        
+        "url": " "
+      },
+      {
+        "texte": "",
+        "url": " "
+      },
+      {
+        "texte": "Consignes de course",
+        "url": "https://drive.google.com/file/d/1S9cMOEykbylkeC_OsuguBag1RywI82P6/view?usp=drivesdk"
+      }
+    ],
+    "maj": "04/10/2026 19:51"
+  },
+
+  "groupe5": {
+    "titre": "LD Fontainebleau(77) 11/10",
+    "textes": [
+      "Course régionale Longue Distance à Fontainebleau(77), 'la vallée des chatons'",
+      "IMPORTANT: ==> Prendre son horaire à l'avance.",
+      "attention ! Guilhem FAVE horaire Violet Court ou Violet Très Court ?"
+    ],
+    "liens": [
+      {
+        "texte": "Choix Horaires",        
+        "url": "https://docs.google.com/spreadsheets/d/1_buiQC9nuaOD565CCXMM1qWBLu9UND8eTbGLa9zM3LE/edit?gid=0#gid=0"
+      },
+      {
+        "texte": "Annonce",
+        "url": "https://drive.google.com/file/d/1_A_gRsILoPcEk75u7kgxuagqv87XJruI/view?usp=sharing"
+      }
+    ],
+    "maj": "06/10/2026 05;22"
+  }
+}
