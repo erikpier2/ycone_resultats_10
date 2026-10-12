@@ -83,11 +83,15 @@
   "groupe5": {
     "titre": "LD Fontainebleau(77) 11/10",
     "textes": [
-      "Course régionale Longue Distance à Fontainebleau(77), 'la vallée des chatons'",
-      "IMPORTANT: ==> Prendre son horaire à l'avance.",
-      "attention ! Guilhem FAVE horaire Violet Court ou Violet Très Court ?"
+      "Course régionale Longue Distance à Fontainebleau(77), 'la vallée des chatons'" 
     ],
     "liens": [
+      {        "texte": "Résultats Circuits",        
+        "url": "https://res.cloudinary.com/hkgivq3wi/image/upload/v1791740064/organisations/resultat_simple69?_a=BAAABnH8"
+      },
+      {         "texte":"Résultats Temps intermédiaires",
+        "url":"https://res.cloudinary.com/hkgivq3wi/image/upload/v1791740064/organisations/resultat_si69?_a=BAAABnH8"
+      },      
       {
         "texte": "Choix Horaires",        
         "url": "https://docs.google.com/spreadsheets/d/1_buiQC9nuaOD565CCXMM1qWBLu9UND8eTbGLa9zM3LE/edit?gid=0#gid=0"
@@ -97,6 +101,6 @@
         "url": "https://drive.google.com/file/d/1_A_gRsILoPcEk75u7kgxuagqv87XJruI/view?usp=sharing"
       }
     ],
-    "maj": "06/10/2026 05;22"
+    "maj": "12/10/2026 08:11"
   }
 }
