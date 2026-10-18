@@ -719,6 +719,9 @@
         </div>
     </div>
 
+
+
+
     <!-- =====================================================
         JAVASCRIPT
         ===================================================== -->
@@ -736,36 +739,36 @@
         DICTIONNAIRE DES LIENS DU TABLEAU
       ========================================================= */
     const liensPersonnalises = {
-        "LD Nemours(77) 4/10":"https://drive.google.com/file/d/1QrOnt-HcuTtvGSR5_7xQkPmd7BuNOapq/view?usp=sharing",
+        "":"",
         "1.Rés.": "",      
         "1.Pl.": "",
 
-        "NSE Sprint Lambesc(13) 3/10":"https://nse2026.paca-co.fr/wp-content/uploads/2026/09/Annonce-de-course-CO-a-pied-Nationale-LAMBESC-v1.5.pdf",
+        "":"",
         "2.Hor.":"",
-        "2.Rés.": "https://heyries.alwaysdata.net/competition/1/class/H60-65/",
+        "2.Rés.": "",
         "2.Pl.":"",
         "2.écart":"",
 
-        "NSE LD Meyrargues(13) 4/10":"https://nse2026.paca-co.fr/wp-content/uploads/2026/08/Annonce-de-course-CO-a-pied-Nationale-Meyrargues-v1.3.pdf",
+        "":"",
         "3.Hor.":"",
-        "3.Rés.": "https://heyries.alwaysdata.net/competition/2/class/H65/",
+        "3.Rés.": "",
         "3.Pl.":"",
         "3.écart":"",
 
-        "Sprint R. Quetigny(21) 10/10":"https://drive.google.com/file/d/1AGCc6prWtvzRJWoXNc-l1V4T1g1IDAZt/view?usp=sharing",
+        "":"",
         "4.Rés.": "",
         "4.Pl.": "",
 
-        "LD Fontainebleau(77) 11/10":"https://drive.google.com/file/d/1_A_gRsILoPcEk75u7kgxuagqv87XJruI/view?usp=sharing",
-        "5.Hor.":"https://docs.google.com/spreadsheets/d/1_buiQC9nuaOD565CCXMM1qWBLu9UND8eTbGLa9zM3LE/edit?gid=0#gid=0",
+        "":"",
+        "5.Hor.":"",
         "5.Rés.": "",
         "5.Pl.": "",
 
-        "Sprint Avallon(89) 17/10":"https://drive.google.com/file/d/1CfR5-hz1Z5UPUf_LA1VVl3PRVnEynf5w/view?usp=sharing",
+        "":"",
         "6.Rés.": "",
         "6.Pl.": "",
 
-        "CDL Nuit Avallon(89) 17/10":"https://drive.google.com/file/d/1fpglAc678aQYIk8uwl4M8PGpfdOdA1gj/view?usp=sharing",
+        "":"",
         "7.Circ.": "",
         "7.Hor.": "",
         "7.Rés.": "",
@@ -910,6 +913,36 @@
                 return false;
             }
 
+            /* =========================================================
+                TEST : LA LIGNE POSSÈDE-T-ELLE UNE DONNÉE VISIBLE ?
+            ========================================================= */
+            function ligneAUneDonneeVisible(cells) {
+            
+                for (let debutGroupe = 3;
+                    debutGroupe < cells.length;
+                    debutGroupe += 5) {
+                    
+                    // On ne regarde que les groupes qui restent visibles
+                    if (!estGroupeActif(debutGroupe)) {
+                        continue;
+                    }
+                
+                    // Recherche d'au moins une cellule réellement remplie
+                    for (let i = 0; i < 5; i++) {
+                    
+                        const index = debutGroupe + i;
+                    
+                        if (index < cells.length &&
+                            cells[index].trim() !== "") {
+                            
+                            return true;
+                        }
+                    }
+                }
+            
+                return false;
+            }
+
             /* =================================================
                 CONSTRUCTION DU TABLEAU
               ================================================= */
@@ -948,6 +981,16 @@
 
                     const cells =
                         line.split(';');
+
+                    /* =================================================
+                        MASQUAGE DES PERSONNES SANS DONNÉE VISIBLE
+                      ================================================= */
+                    if (
+                        rowIndex >= 2 &&
+                        !ligneAUneDonneeVisible(cells)
+                    ) {
+                        return;
+                    }    
 
                     /* -----------------------------------------
                         CLASSES DES LIGNES D'EN-TÊTE
@@ -1665,7 +1708,7 @@
 <p style="color:#e0dada">
 
     Tableau des horaires et résultats
-    mis à jour le 12/10/2026 08:12
+    mis à jour le 18/10/2026 09:17
 
 </p>
 </body>

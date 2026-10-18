@@ -93,8 +93,8 @@
         "url":"https://res.cloudinary.com/hkgivq3wi/image/upload/v1791740064/organisations/resultat_si69?_a=BAAABnH8"
       },      
       {
-        "texte": "Choix Horaires",        
-        "url": "https://docs.google.com/spreadsheets/d/1_buiQC9nuaOD565CCXMM1qWBLu9UND8eTbGLa9zM3LE/edit?gid=0#gid=0"
+        "texte": "",        
+        "url": ""
       },
       {
         "texte": "Annonce",
@@ -102,5 +102,59 @@
       }
     ],
     "maj": "12/10/2026 08:11"
-  }
+  },
+  "groupe6": {
+    "titre": "Sprint Avallon(89) 17/10 ",
+    "textes": [
+      "Course régionale Sprint à Avallon(89)",
+      "Etape 13 de la Coupe de Ligue",
+      "Résultats complets à venir"     
+        ],
+    "liens": [
+      {
+        "texte": "Résultats Circuits",
+        "url": "à venir"
+      },
+      {
+        "texte": "Résultats Temps intermédiaires",
+        "url": "à venir"
+      },      
+      {
+        "texte":"",
+        "url":""
+      },
+      {
+        "texte": "Annonce",        
+        "url": "https://drive.google.com/file/d/1FLz5XkTfCK3YJNzttsfIDcWp4yXR7pg3/view?usp=sharing"
+      }
+    ],
+    "maj": "18/10/2026 09:30"
+  },
+  "groupe7": {
+    "titre": "CDL Nuit Avallon(89) 17/10 ",
+    "textes": [
+      "Course nocturne : Championnat de Ligue de Nuit à Avallon(89)",
+      "Etape 14 de la Coupe de Ligue",
+      "Résultats complets à venir"  
+    ],
+    "liens": [
+      {
+        "texte": "Résultats",
+        "url": "à venir"
+      },
+      {
+        "texte": "Résultats Temps intermédiaires",
+        "url": "à venir"
+      },      
+      {
+        "texte":"",
+        "url":""
+      },
+      {
+        "texte": "Annonce",        
+        "url": "https://drive.google.com/file/d/1Bf6vpJS1ldQwt2r3KCh9taw9fNnX-yIv/view?usp=sharing"
+      }
+    ],
+    "maj": "18/10/2026 09:27"
+  }  
 }
