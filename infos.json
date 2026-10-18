@@ -108,20 +108,20 @@
     "textes": [
       "Course régionale Sprint à Avallon(89)",
       "Etape 13 de la Coupe de Ligue",
-      "Résultats complets à venir"     
+      ""     
         ],
     "liens": [
       {
         "texte": "Résultats Circuits",
-        "url": "à venir"
+        "url": "https://drive.google.com/file/d/1CG-l-nuBvzM9Wt7-IIxU86SqP886DLh7/view?usp=sharing"
       },
       {
         "texte": "Résultats Temps intermédiaires",
-        "url": "à venir"
+        "url": "https://drive.google.com/file/d/1EUMxAW1gAIfwfoXKkECjoEwJSO343W_9/view?usp=sharing"
       },      
       {
-        "texte":"",
-        "url":""
+        "texte":"Résultats Temps intermédiaires",
+        "url":"https://drive.google.com/file/d/1EUMxAW1gAIfwfoXKkECjoEwJSO343W_9/view?usp=sharing"
       },
       {
         "texte": "Annonce",        
@@ -135,26 +135,26 @@
     "textes": [
       "Course nocturne : Championnat de Ligue de Nuit à Avallon(89)",
       "Etape 14 de la Coupe de Ligue",
-      "Résultats complets à venir"  
+      ""  
     ],
     "liens": [
       {
-        "texte": "Résultats",
-        "url": "à venir"
+        "texte": "Résultats Circuits",
+        "url": "https://drive.google.com/file/d/1Oa2ZdLrXMnR4S2KHXv0G58zPeunLXgep/view?usp=sharing"
+      },
+      {
+        "texte":"Résultats Catégories",
+        "url":"https://drive.google.com/file/d/1DgWCpMXVYhawSf76TbusMsATSBp_zQHa/view?usp=sharing"
       },
       {
         "texte": "Résultats Temps intermédiaires",
-        "url": "à venir"
+        "url": "https://drive.google.com/file/d/1dU-5mU0R3vSN8begmcopXcoBlT-8gQwA/view?usp=sharing"
       },      
-      {
-        "texte":"",
-        "url":""
-      },
       {
         "texte": "Annonce",        
         "url": "https://drive.google.com/file/d/1Bf6vpJS1ldQwt2r3KCh9taw9fNnX-yIv/view?usp=sharing"
       }
     ],
-    "maj": "18/10/2026 09:27"
+    "maj": "18/10/2026 15:36"
   }  
 }
