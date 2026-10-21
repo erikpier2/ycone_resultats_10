@@ -116,6 +116,25 @@
         color: var(--texte2);
     }
 
+    /* Alignement horizontal de l'icône et des titres */
+    .header-container {
+        display: flex;
+        align-items: center; /* Aligne verticalement l'icône et le texte au centre */
+        gap: 15px;           /* Crée un espace de 15px entre l'icône et les titres */
+        padding: 10px;       /* Optionnel : ajoute un peu d'espace autour du bloc */
+    }
+
+    /* Optionnel : Remise à zéro des marges des titres pour éviter les décalages */
+    .titles-block h1, 
+    .titles-block h2 {
+        margin: 0;
+    }
+
+    /* Optionnel : Un petit espace sous le H1 si vous le souhaitez */
+    .titles-block h1 {
+        margin-bottom: 4px;
+    }
+
     /* =========================================================
         CONTENEUR DU TABLEAU
     ========================================================= */
@@ -171,9 +190,11 @@
     .sticky-row-1 th {
         position: sticky;
         top: 0;
-        z-index: 10;
+        z-index: 20;
         color: var(--text-header-1);
         font-weight: 500;
+        border-top: var(--border2);
+        background-color: var(--bg-header-1);
     }
 
     .sticky-row-1 th.sticky-parent {
@@ -188,7 +209,7 @@
     .sticky-row-2 th {
         position: sticky;
         top: var(--line1-height);
-        z-index: 10;
+        z-index: 15;
         background-color: var(--bg-header-2);
         color: var(--text-header-1);
         font-weight: 500;
@@ -639,12 +660,53 @@
         }
     }
 
+    /* =========================================================
+        TOTALISATEUR
+      ========================================================= */
+    .ligne-totaux td {
+        font-weight: 700;
+        text-align: center;
+        border-top: var(--border1,) !important;
+        background: var(--fond-entete,);
+    }
+
+    .separateur-inscriptions {
+        margin: 1.25rem 0 0.5rem;
+        padding: 0.6rem 0.75rem;
+        border-top: 2px solid currentColor;
+        font-size: 1.05rem;
+    }
+    .mon-icone {
+        /* Définissez la taille de votre choix ici */
+        width: 50px; 
+        height: 50px;        
+        /* Optionnel : garantit que le ratio carré (1:1) reste parfait */
+        aspect-ratio: 1 / 1;    
+    }
 </style>
 </head>
 
 <body> 
 <div id="body">
+<div id="body">
 
+    <!-- =====================================================
+        TITRE
+    ========================================================== -->
+    <header class="header-container">
+    <!-- Votre icône SVG -->
+    <svg class="mon-icone" width="100%" height="100%" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- vector-effect ajouté pour garder des bordures proportionnelles -->
+        <rect x="10" y="10" width="180" height="180" fill="#f3f1e9" stroke="#453cf4" stroke-width="2" />
+        <rect x="25" y="25" width="150" height="150" fill="none" stroke="#453cf4" stroke-width="14"  />
+        <polygon points="25,175 25,28 170,175" fill="#453cf4"/>
+        <g fill="#453cf4">
+        <text x="66" y="65" font-family="'Fancy', 'Helvetica Neue', Arial, sans-serif" font-weight="1000" font-size="25" letter-spacing="0">ƳᑕÔᑎᗴ</text>      
+        <text x="98" y="90" font-family="'Fancy', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="16" letter-spacing="-1">Sens</text>
+        </g> 
+    </svg>
+    <!-- Le bloc contenant vos titres -->
+    <div class="titles-block">
     <!-- =====================================================
         TITRE
     ========================================================== -->
@@ -673,7 +735,8 @@
             <i>LBFCO</i>
         </a>
     </h2>
-
+    </div>
+    </header>
     <!-- =====================================================
         CHARGEMENT
     ======================================================= -->
@@ -726,7 +789,26 @@
         JAVASCRIPT
         ===================================================== -->
     <script>
+        // Date du jour
+        const aujourdHui = new Date();
 
+        // Format yyyy-mm-dd en heure locale
+        const annee = aujourdHui.getFullYear();
+        const mois = String(aujourdHui.getMonth() + 1).padStart(2, '0');
+        const jour = String(aujourdHui.getDate()).padStart(2, '0');
+        const dateDebut = `${annee}-${mois}-${jour}`;
+
+        // Dernier jour de l'année suivante
+        const dateFin = `${annee + 1}-12-31`;
+
+        // Construction du lien
+        const url = 
+        `https://api.ffcorientation.fr/iframe/agenda/liste/?du=${dateDebut}&au=${dateFin}&types=cou&page=1`;
+
+        document.getElementById('lienAgenda').href = url;
+        console.log("Clic détecté sur la balise d'orientation");
+    </script>    
+    <script>
     /* =========================================================
         FICHIERS
       ========================================================= */
@@ -981,6 +1063,11 @@
 
                     const cells =
                         line.split(';');
+                    /* Passage au tbody dès la première ligne de données */
+                    if (rowIndex >= 2 && !isBodyOpen) {
+                        htmlRaw += "</thead><tbody>";
+                        isBodyOpen = true;
+                    }    
 
                     /* =================================================
                         MASQUAGE DES PERSONNES SANS DONNÉE VISIBLE
@@ -1006,20 +1093,6 @@
 
                         rowClass =
                             ' class="sticky-row-2"';
-                    }
-
-                    /* -----------------------------------------
-                        PASSAGE AU TBODY
-                      ----------------------------------------- */
-                    if (
-                        rowIndex === 2 &&
-                        !isBodyOpen
-                    ) {
-
-                        htmlRaw +=
-                            "</thead><tbody>";
-
-                        isBodyOpen = true;
                     }
 
                     htmlRaw +=
