@@ -149,12 +149,329 @@
       {
         "texte": "Résultats Temps intermédiaires",
         "url": "https://drive.google.com/file/d/1dU-5mU0R3vSN8begmcopXcoBlT-8gQwA/view?usp=sharing"
-      },      
+      },
+      {
+        "texte":"",
+        "url":""
+      },
       {
         "texte": "Annonce",        
         "url": "https://drive.google.com/file/d/1Bf6vpJS1ldQwt2r3KCh9taw9fNnX-yIv/view?usp=sharing"
       }
     ],
     "maj": "18/10/2026 15:36"
-  }  
-}
+  },
+    "groupe8": {
+    "titre": "MD régionale Col de la République(42) 21/10 ",
+    "textes": [
+      "Moyenne distance "
+    ],
+    "liens": [
+      {
+        "texte": "Site Web",        
+        "url": "https://cdco42.fr/site/"
+      },
+      {
+        "texte": "Annonce",        
+        "url": "https://drive.google.com/file/d/1QQMk4eja6SP1h-yttIh8ubPRTba1Dr4O/view?usp=sharing"
+      },
+      {
+        "texte": "ancienne carte",        
+        "url": "https://cdco42.fr/site/wp-content/uploads/2026/10/Col-de-la-Rep-1-1073x1536.jpg"
+      },                    
+      {
+        "texte": "Liveresultats",
+        "url": "https://liveresultat.orientering.se/beta/?lang=fr"
+      },
+      {
+        "texte":"ffco",
+        "url":"https://api.ffcorientation.fr/iframe/courses/107022/"
+      },
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",        
+        "url": ""
+      }
+    ],
+    "maj": "22/10/2026 15:23"
+  },
+    "groupe9": {
+    "titre": "MD départementale Col de la République(42) 22/10",
+    "textes": [
+      "Moyenne distance "
+    ],
+    "liens": [
+      {
+        "texte": "Site Web",        
+        "url": "https://cdco42.fr/site/"
+      },
+      {
+        "texte": "Annonce",        
+        "url": "https://drive.google.com/file/d/1wKI8gvIWXvrZM54r7w7WbzKpy3kJ8qqz/view?usp=sharing"
+      },      
+      {
+        "texte": "ancienne carte",        
+        "url": "https://cdco42.fr/site/wp-content/uploads/2026/10/Col-de-la-Rep-1-1073x1536.jpg"
+      },                  
+      {
+        "texte": "Liveresultats",
+        "url": "https://liveresultat.orientering.se/?lang=fr"
+      },
+      {
+        "texte":"ffco",
+        "url":"https://api.ffcorientation.fr/iframe/courses/107023/"
+      },
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",        
+        "url": ""
+      }
+    ],
+    "maj": "22/10/2026 15:26"
+  },
+    "groupe10": {
+    "titre": "Pélussin City Race (42) 23/10",
+    "textes": [
+      "Le tracé alterne entre le cœur historique de la ville (ruelles pavées, escaliers, passages étroits), quelques zones pavillonaires et des petites zones herbeuses (parc)."
+    ],
+    "liens": [
+      {
+        "texte": "Site Web",        
+        "url": "https://oe4203.wordpress.com/pelussin-city-race/"
+      },
+      {
+        "texte": "Résultats Circuits",        
+        "url": "https://jolatomme.alwaysdata.net/"
+      },
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",        
+        "url": ""
+      },                    
+      {
+        "texte": "",
+        "url": ""
+      },
+      {
+        "texte":"",
+        "url":""
+      }
+    ],
+    "maj": "23/10/2026 19:19"
+  },
+    "groupe11": {
+    "titre": "Sprint Open & CF Saint-Etienne(42) ==> transfert sur Le Bessat 24/10",
+    "textes": [
+      ""
+    ],
+    "liens": [
+            {
+        "texte": "Résultats O'Live",        
+        "url": "https://www.co-live.fr/olive/resultats.php"
+      },
+      {
+        "texte": "Site Web",        
+        "url": "https://cne2026.nose42.fr/cf-sprint"
+      },
+      {
+        "texte": "INFORMATION Importante suite aux évènements actuels",        
+        "url": "https://drive.google.com/file/d/1-HJeRy8IH0ayfLnN60H7br6ASGwlYYCx/view?usp=sharing"
+      },
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",        
+        "url": ""
+      },                  
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte":"",
+        "url":""
+      },
+      {
+        "texte":"",        
+        "url":""
+      },
+      {
+        "texte": "Qualifiés au titre du CN",
+        "url": "https://archives.ffcorientation.fr/media/cms_page_media/7947/CFSprint-qualifiés-CN_2026.pdf"
+      },
+      {
+        "texte":"Liste FFCO des qualifiés au Chpt de France",
+        "url":"https://www.ffcorientation.fr/wp-content/uploads/2026/10/championnat_de_france_sprint_2026_listesqualifies_categories.pdf"
+      }
+    ],
+    "maj": "24/10/2026 18:51"
+  },
+    "groupe12": {
+    "titre": "",
+    "textes": [
+      ""
+    ],
+    "liens": [
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",
+        "url": ""
+      }
+    ],
+    "maj": "08/10/2026 07:29"
+  },
+    "groupe13": {
+    "titre": "CNE relais Le Bessat(42) dimanche 25/10",
+    "textes": [
+      ""
+    ],
+    "liens": [
+      {
+        "texte": "Annonce",        
+        "url": "https://drive.google.com/file/d/1JEkuMS6nXbWPMhWs35oQG98tP97LpUQ4/view?usp=sharing"
+      },
+      {
+        "texte": "Site Web",
+        "url": "https://cne2026.nose42.fr/cne"
+      },
+      {
+        "texte": "Résultats O'Live",        
+        "url": "https://www.co-live.fr/olive/resultats.php"
+      },      
+            {
+        "texte": "ffco",        
+        "url": "https://api.ffcorientation.fr/iframe/courses/105692/"
+      },
+            {
+        "texte": "ancienne carte",        
+        "url": "https://drive.google.com/file/d/1UYNTnd6689FtgNLbVwPkC3zKdmf29CZK/view?usp=sharing"
+      }
+    ],
+    "maj": "24/10/2026 18:51"
+  },
+    "groupe14": {
+    "titre": "CNE Chpt de France de Nuit Le Bessat(42) lundi 26/10",
+    "textes": [
+      ""
+    ],
+    "liens": [
+            {
+        "texte": "Annonce",        
+        "url": "https://drive.google.com/file/d/1JS8xQmTSq3uKGppH0TXde1cQWbUuF_W9/view?usp=sharing"
+      },
+      {
+        "texte": "Site Web",        
+        "url": "https://cne2026.nose42.fr/cn-nuit"
+      },
+      {
+        "texte": "Résultats O'Live",
+        "url": "https://www.co-live.fr/olive/resultats.php?Action=ChoixResultats&IdCourse=152"
+      },
+      {
+        "texte": "",        
+        "url": ""
+      }      
+    ],
+    "maj": "26/10/2026 22:35"
+  },
+    "groupe15": {
+    "titre": "",
+    "textes": [
+      ""
+    ],
+    "liens": [
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",
+        "url": ""
+      }
+    ],
+    "maj": "06/10/2026 05:22"
+  },
+    "groupe16": {
+    "titre": "",
+    "textes": [
+      ""
+    ],
+    "liens": [
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",
+        "url": ""
+      }
+    ],
+    "maj": "06/10/2026 05:22"
+  },
+    "groupe17": {
+    "titre": " ",
+    "textes": [
+      ""
+    ],
+    "liens": [
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",
+        "url": ""
+      }
+    ],
+    "maj": "06/10/2026 05:22"
+  },
+    "groupe18": {
+    "titre": " ",
+    "textes": [
+      "" 
+    ],
+    "liens": [
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",
+        "url": ""
+      }
+    ],
+    "maj": "06/10/2026 05:22"
+  },
+    "groupe19": {
+    "titre": " ",
+    "textes": [
+      ""
+
+    ],
+    "liens": [
+      {
+        "texte": "",        
+        "url": ""
+      },
+      {
+        "texte": "",
+        "url": ""
+      }
+    ],
+    "maj": "06/10/2026 05:22"
+  }
+}    
